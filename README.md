@@ -1,20 +1,11 @@
 # Café Byte – Práctica de depuración
 
-Página web de una cafetería ficticia. **Tiene un fallo**: encuéntralo y corrígelo siguiendo el enunciado de la práctica.
+Esta página **tiene un fallo**: encuéntralo y corrígelo siguiendo el enunciado de la práctica.
 
-## Estructura
+## Cómo debería verse
 
-```
-index.html
-css/
-  style.css
-```
-
-## Cómo debería verse la página
-
-- **Cabecera** marrón oscuro con el logo "Café Byte" a la izquierda y el menú (Carta, Horario, Contacto) en horizontal a la derecha, sin viñetas ni subrayado.
-- **Portada** con fondo marrón, texto blanco centrado y un botón dorado "Ver la carta".
-- **Carta** con tres tarjetas blancas, con bordes redondeados y sombra, colocadas una al lado de otra.
-- **Horario** sobre fondo beige, centrado.
-- **Pie** marrón oscuro con la dirección centrada.
-- Tipografía sin serifa (Arial) en toda la página.
+- El título "Café Byte" en blanco sobre una franja de color oscuro.
+- Un botón de color "Ver la carta" (sin subrayar).
+- La sección "Carta" con tres recuadros blancos con las esquinas redondeadas: Espresso, Capuchino, Tostada.
+- Al final, la dirección en gris.
+- Todo centrado y con letra Arial.
