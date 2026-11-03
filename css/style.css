@@ -1,0 +1,110 @@
+/* ===== Estilos generales ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5efe6;
+    color: #3b2a20;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* ===== Cabecera ===== */
+.cabecera {
+    background-color: #3b2a20;
+    color: #f5efe6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.menu a {
+    color: #f5efe6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #d9a35b;
+}
+
+/* ===== Portada ===== */
+.portada {
+    background-color: #6f4e37;
+    color: #ffffff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.portada p {
+    margin-bottom: 1.5rem;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #d9a35b;
+    color: #3b2a20;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ===== Carta ===== */
+.carta {
+    padding: 3rem 2rem;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    width: 250px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.precio {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #6f4e37;
+}
+
+/* ===== Horario ===== */
+.horario {
+    background-color: #ead9c3;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+/* ===== Pie ===== */
+.pie {
+    background-color: #3b2a20;
+    color: #f5efe6;
+    text-align: center;
+    padding: 1rem;
+}
